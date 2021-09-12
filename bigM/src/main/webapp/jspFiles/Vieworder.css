@@ -1,0 +1,335 @@
+@charset "ISO-8859-1";
+/* placeOrder page css */
+  .order-form .container {
+  	
+      color: #4c4c4c;
+      padding: 20px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    }
+
+    .order-form-label {
+      margin: 8px 0 0 0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .order-form-input {
+      width: 100%;
+      padding: 8px 8px;
+      border-width: 1px !important;
+      border-style: solid !important;
+      border-radius: 3px !important;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.2em;
+      background-color: transparent;
+      border-color: #cccccc;
+    }
+    .btn-submit{
+    	transition: transform .2s;
+    }
+
+    .btn-submit:hover {
+      background-color: green !important;
+      -ms-transform: scale(1.25); /* IE 9 */
+  	  -webkit-transform: scale(1.5); /* Safari 3-8 */
+	  transform: scale(1.25);
+	  box-shadow: 10px 5px 5px #8e88fd;
+    }
+    
+    
+/* placeOrder page css */
+.u-section-1 {
+	margin-top:25px;
+  min-height: 802px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  width: calc(((100% - 1140px) / 2) + 1140px);
+  margin: 9px 0 9px auto;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 735px;
+  background-image: url("../images/cokeworld.jfif");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 785px;
+  background-image: linear-gradient(#666666, #f2f2f2);
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 29px 30px 29px 2px;
+}
+
+.u-section-1 .u-text-1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 89px 365px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  animation-duration: 1000ms;
+  margin: -45px 96px 0 409px;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 35px 483px 0 0;
+}
+
+.u-section-1 .u-text-4 {
+  margin: -45px 44px 0 275px;
+}
+
+.u-section-1 .u-text-5 {
+  margin: 33px 0 0;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 41px 0 0;
+}
+
+.u-section-1 .u-text-7 {
+  margin: 41px 0 0;
+}
+
+.u-section-1 .u-text-8 {
+  margin: 16px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 35px auto 0 315px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: -46px auto 0 149px;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: solid;
+  font-size: 0.875rem;
+  letter-spacing: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: -46px 160px 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 {
+    min-height: 541px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: calc(((100% - 940px) / 2) + 940px);
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 606px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 647px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 265px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 46px;
+    margin-left: 359px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 383px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 0;
+    margin-left: 218px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 24px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 12px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-right: 29px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 {
+    min-height: 503px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: calc(((100% - 720px) / 2) + 720px);
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 433px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 179px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 3px;
+    margin-left: 316px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 297px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-left: 132px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 28px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 {
+    min-height: 1172px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: calc(((100% - 540px) / 2) + 540px);
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 696px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 {
+    min-height: 355px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: calc(((100% - 340px) / 2) + 340px);
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 438px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+    margin-left: 119px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 97px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+}
+/* order.jsp css*/
+
+/* placeOrder page css */
+  .order-form .container {
+  	
+      color: #4c4c4c;
+      padding: 20px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    }
+
+    .order-form-label {
+      margin: 8px 0 0 0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .order-form-input {
+      width: 100%;
+      padding: 8px 8px;
+      border-width: 1px !important;
+      border-style: solid !important;
+      border-radius: 3px !important;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.2em;
+      background-color: transparent;
+      border-color: #cccccc;
+    }
+    .btn-submit{
+    	transition: transform .2s;
+    }
+
+    .btn-submit:hover {
+      background-color: green !important;
+      -ms-transform: scale(1.25); /* IE 9 */
+  	  -webkit-transform: scale(1.5); /* Safari 3-8 */
+	  transform: scale(1.25);
+	  box-shadow: 10px 5px 5px #8e88fd;
+    }
+    
+    
+/* placeOrder page css ends here*/
+/*edit order css*/
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
